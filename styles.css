@@ -196,31 +196,31 @@ background: #07071b;
 padding-bottom: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .tittle {
     margin-bottom: 0;
-    font-size: 42px;
+    font-size: 40px;
   }
 
 .header{
-  height: 85vh !important;
+  height: 160vh !important;
 }
 
   .saw {
-height: 150vh;
+height: 300vh;
 
   }
 
   .about{
-height: 100vh;
+height: 200vh;
 
   }
   .price{
-height: 85vh;
+height: 190vh;
 
   }
 .contact{
-  height: 8%;
+  height: 120vh;
 }
 
   .navbar {
