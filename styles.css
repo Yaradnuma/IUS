@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+
+text-align: center;
+font-family: sans-serif;
+
+}
+
+
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 63px;
+  background: #3c2869ec;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+
+  display: flex;
+  margin-right: 10px;
+}
+
+
+
+.navbar a {
+  display: block;
+  padding: 23px 20px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: system-ui;
+}
+
+.navbar a:hover {
+  background: #1d1433;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.header{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header {
+  height: 70vh !important;
+  background: url(images/photo_4908935121982303961_y.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.tittle {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 3)
+}
+
+p{
+  margin-bottom: 40px;
+  font-size: 20px ;
+  line-height: 1.5;
+  color: #ffffff;
+  padding: 0 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 3)
+}
+
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #3b82c4;
+  color: #fff;
+  text-decoration: none;
+  background: #3b82c4;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0);
+
+}
+
+.btn:hover{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  background: #1d1433;
+  border: #1d1433;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.btn-home{
+  display: flex;
+
+}
+
+.btn-home a{
+  margin: 0 10px;
+
+}
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.saw {
+  height: 60vh;
+  padding: 30px;
+  background: #3b2869;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  background: #4f4698;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0);
+  margin: 2rem;
+
+}
+
+
+.box-container .box i{
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2rem;
+  margin: 1 rem 0;
+}
+
+
+.box-container .box h3 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.about {
+  height: 80vh;
+  box-shadow: 0px 100px 100px rgb(0, 0, 0);
+  background-color: #453576;
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%236d4e9f' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.price {
+  background: url(images/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
+.contact {
+
+padding-top: 20px;
+background: #07071b;
+padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .tittle {
+    margin-bottom: 0;
+    font-size: 42px;
+  }
+
+.header{
+  height: 85vh !important;
+}
+
+  .saw {
+height: 150vh;
+
+  }
+
+  .about{
+height: 100vh;
+
+  }
+  .price{
+height: 85vh;
+
+  }
+.contact{
+  height: 8%;
+}
+
+  .navbar {
+    display: none;
+  }
+
+}
